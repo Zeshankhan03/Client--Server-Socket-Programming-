@@ -12,6 +12,6 @@ while True:
     c, addr = s.accept()
 
     print("Got Connection from", addr)
-    message = f'Hello!!'
+    message = 'Hello!!'
     c.send(message.encode())
     c.close()
